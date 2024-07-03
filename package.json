@@ -9,8 +9,8 @@
     "start": "parcel",
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'http://Yatin12527.github.io/codespaces-project-template-js-'",
-    "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
