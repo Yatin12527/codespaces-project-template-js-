@@ -4,11 +4,11 @@
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
   "type": "module",
-  "homepage": "http://Yatin12527.github.io/codespaces-project-template-js",
+  "homepage": "http://Yatin12527.github.io/codespaces-project-template-js-",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
+    "build-gh": "parcel build --public-url 'http://Yatin12527.github.io/codespaces-project-template-js-'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
